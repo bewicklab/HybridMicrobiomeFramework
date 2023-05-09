@@ -1,2 +1,11 @@
 # HybridMicrobiomeFramework
 Data and Code for Camper, Benjamin, et al. "A Conceptual Framework for Host-Associated Microbiomes of Hybrid Organisms." bioRxiv (2023): 2023-05.
+
+The OTU table and associated metadata files for the Kikihia cicadas is found in the Cicadas folder
+The OTU table and associated metadata files for the Aspidoscelis lizards is found in the Lizards folder
+The OTU table and associated metadata files for the Neotoma woodrats is found in the Woodrats folder
+The OTU table and associated metadata fils for the Maize systems is found in the Maize folder
+
+To recreate the figures and data from the cicada,lizard and woodrat systems, use code makefigure2abc.R
+To recreate the figures and data from the maize systems, use code makefigure2def.R
+These two scripts will produce quaternary plots similar to the plots in the citataion above. They will also print out summary information consistent with the data in Tables 1 and 2 in the citation above. Note that the results will not be 'identical' due to differences in the random sampling processes during both OTU table rarefaction and bootstrapping.

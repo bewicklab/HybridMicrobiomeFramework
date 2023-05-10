@@ -1,5 +1,6 @@
 library("phyloseq")
 library('HybridMicrobiomes')
+library('stringr')
 
 #Note that numbers will differ slightly from Camper et al., due to variation in random sampling, both during matrix
 #rarefaction as well as bootstrapping
